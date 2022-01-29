@@ -1,0 +1,657 @@
+Microsoft Windows [Version 10.0.22000.434]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\maham>c:
+
+C:\Users\maham>cd c:
+C:\Users\maham
+
+C:\Users\maham>cd c:\
+
+c:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6E7D-04A5
+
+ Directory of c:\
+
+01/24/2022  07:54 PM    <DIR>          Intel
+06/05/2021  06:10 PM    <DIR>          PerfLogs
+01/29/2022  11:46 AM    <DIR>          Program Files
+01/27/2022  12:04 PM    <DIR>          Program Files (x86)
+01/19/2022  01:22 PM    <DIR>          Users
+01/17/2022  02:20 AM    <DIR>          Windows
+01/29/2022  10:39 PM    <DIR>          xampp
+               0 File(s)              0 bytes
+               7 Dir(s)  39,982,284,800 bytes free
+
+c:\>cd xampp
+
+c:\xampp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6E7D-04A5
+
+ Directory of c:\xampp
+
+01/29/2022  10:39 PM    <DIR>          .
+01/29/2022  10:35 PM    <DIR>          anonymous
+01/29/2022  10:35 PM    <DIR>          apache
+06/07/2013  05:15 PM               436 apache_start.bat
+01/29/2022  10:39 PM               176 apache_stop.bat
+04/05/2021  10:16 PM            10,324 catalina_service.bat
+04/05/2021  10:17 PM             3,766 catalina_start.bat
+04/05/2021  10:17 PM             3,529 catalina_stop.bat
+01/29/2022  10:39 PM    <DIR>          cgi-bin
+01/29/2022  10:35 PM    <DIR>          contrib
+01/29/2022  10:35 PM             2,731 ctlscript.bat
+01/29/2022  10:39 PM    <DIR>          FileZillaFTP
+03/30/2013  06:29 PM                78 filezilla_setup.bat
+06/07/2013  05:15 PM               150 filezilla_start.bat
+06/07/2013  05:15 PM               149 filezilla_stop.bat
+01/29/2022  10:35 PM    <DIR>          htdocs
+01/29/2022  10:35 PM    <DIR>          img
+01/29/2022  10:39 PM    <DIR>          install
+08/27/2019  08:01 PM               299 killprocess.bat
+01/29/2022  10:35 PM    <DIR>          licenses
+01/29/2022  10:35 PM    <DIR>          locale
+01/29/2022  10:35 PM    <DIR>          mailoutput
+01/29/2022  10:35 PM    <DIR>          mailtodisk
+01/29/2022  10:39 PM    <DIR>          MercuryMail
+06/07/2013  05:15 PM               136 mercury_start.bat
+06/07/2013  05:15 PM                60 mercury_stop.bat
+01/29/2022  10:36 PM    <DIR>          mysql
+06/03/2019  05:39 PM               471 mysql_start.bat
+01/29/2022  10:39 PM               256 mysql_stop.bat
+03/13/2017  05:04 PM               824 passwords.txt
+01/29/2022  10:37 PM    <DIR>          perl
+01/29/2022  10:39 PM    <DIR>          php
+01/29/2022  10:38 PM    <DIR>          phpMyAdmin
+01/29/2022  10:38 PM               791 properties.ini
+01/21/2022  10:46 PM             7,496 readme_de.txt
+01/21/2022  10:46 PM             7,366 readme_en.txt
+01/29/2022  10:38 PM    <DIR>          sendmail
+03/30/2013  06:29 PM            60,928 service.exe
+03/30/2013  06:29 PM             1,255 setup_xampp.bat
+01/29/2022  10:35 PM    <DIR>          src
+11/29/2020  07:38 PM             1,671 test_php.bat
+01/29/2022  10:44 PM    <DIR>          tmp
+01/29/2022  10:36 PM    <DIR>          tomcat
+01/29/2022  10:39 PM           254,885 uninstall.dat
+01/29/2022  10:39 PM        12,520,713 uninstall.exe
+01/29/2022  10:39 PM    <DIR>          webalizer
+01/29/2022  10:35 PM    <DIR>          webdav
+04/06/2021  05:38 PM         3,368,448 xampp-control.exe
+01/29/2022  10:39 PM               178 xampp-control.ini
+01/29/2022  10:35 PM             1,084 xampp_shell.bat
+03/30/2013  06:29 PM           118,784 xampp_start.exe
+03/30/2013  06:29 PM           118,784 xampp_stop.exe
+              28 File(s)     16,485,768 bytes
+              24 Dir(s)  39,982,051,328 bytes free
+
+c:\xampp>cd mysql
+
+c:\xampp\mysql>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6E7D-04A5
+
+ Directory of c:\xampp\mysql
+
+01/29/2022  10:36 PM    <DIR>          .
+01/29/2022  10:39 PM    <DIR>          ..
+01/29/2022  10:36 PM    <DIR>          backup
+01/29/2022  10:39 PM    <DIR>          bin
+11/06/2021  01:03 AM            17,987 COPYING
+11/06/2021  01:03 AM             2,093 CREDITS
+01/29/2022  10:44 PM    <DIR>          data
+03/30/2013  06:29 PM               848 mysql_installservice.bat
+03/30/2013  06:29 PM               395 mysql_uninstallservice.bat
+11/06/2021  01:03 AM             2,874 README.md
+06/03/2019  05:39 PM             1,095 resetroot.bat
+01/29/2022  10:35 PM    <DIR>          scripts
+01/29/2022  10:36 PM    <DIR>          share
+11/06/2021  01:03 AM            86,263 THIRDPARTY
+               7 File(s)        111,555 bytes
+               7 Dir(s)  39,981,051,904 bytes free
+
+c:\xampp\mysql>cd bin
+
+c:\xampp\mysql\bin>mysql -u root -p -h 127.0.0.1
+Enter password:
+ERROR 2002 (HY000): Can't connect to MySQL server on '127.0.0.1' (10061)
+
+c:\xampp\mysql\bin>mysql -u root -p -h 127.0.0.1
+Enter password: **********
+ERROR 2002 (HY000): Can't connect to MySQL server on '127.0.0.1' (10061)
+
+c:\xampp\mysql\bin>mysql -u root -p -h 127.0.0.1
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 8
+Server version: 10.4.22-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+5 rows in set (0.002 sec)
+
+MariaDB [(none)]> create database university;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
+| university         |
++--------------------+
+6 rows in set (0.001 sec)
+
+MariaDB [(none)]> drop database university;
+Query OK, 0 rows affected (0.002 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+5 rows in set (0.001 sec)
+
+MariaDB [(none)]> create database if not exists university;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> drop database if exists university;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+5 rows in set (0.001 sec)
+
+MariaDB [(none)]> create database if not exists university;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
+| university         |
++--------------------+
+6 rows in set (0.001 sec)
+
+MariaDB [(none)]> use university;
+Database changed
+MariaDB [university]> create table Scholar(SID INT,SName varchar(35),Department varchar(30),Section varchar(20),Age INT,CGPA decimal(2,2));
+Query OK, 0 rows affected (0.028 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| scholar              |
++----------------------+
+1 row in set (0.001 sec)
+MariaDB [university]> describe Scholar;
++------------+--------------+------+-----+---------+-------+
+| Field      | Type         | Null | Key | Default | Extra |
++------------+--------------+------+-----+---------+-------+
+| SID        | int(11)      | YES  |     | NULL    |       |
+| SName      | varchar(35)  | YES  |     | NULL    |       |
+| Department | varchar(30)  | YES  |     | NULL    |       |
+| Section    | varchar(20)  | YES  |     | NULL    |       |
+| Age        | int(11)      | YES  |     | NULL    |       |
+| CGPA       | decimal(2,2) | YES  |     | NULL    |       |
++------------+--------------+------+-----+---------+-------+
+6 rows in set (0.016 sec)
+MariaDB [university]> create table Course(CCode varchar(15),CTitle varchar(30),Credit INT,Level varchar(10),Term varchar(10));
+Query OK, 0 rows affected (0.030 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| course               |
+| scholar              |
++----------------------+
+2 rows in set (0.001 sec)
+
+MariaDB [university]> describe Course;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| CCode  | varchar(15) | YES  |     | NULL    |       |
+| CTitle | varchar(30) | YES  |     | NULL    |       |
+| Credit | int(11)     | YES  |     | NULL    |       |
+| Level  | varchar(10) | YES  |     | NULL    |       |
+| Term   | varchar(10) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.017 sec)
+
+MariaDB [university]> create table Instructor(IID varchar(20),IName varchar(35),Department varchar(20),Designation varchar(25),Address varchar(50));
+Query OK, 0 rows affected (0.030 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| course               |
+| instructor           |
+| scholar              |
++----------------------+
+3 rows in set (0.001 sec)
+
+MariaDB [university]> describe Instruction;
+ERROR 1146 (42S02): Table 'university.instruction' doesn't exist
+MariaDB [university]> describe instruction;
+ERROR 1146 (42S02): Table 'university.instruction' doesn't exist
+MariaDB [university]> describe instructor
+    -> ;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| IID         | varchar(20) | YES  |     | NULL    |       |
+| IName       | varchar(35) | YES  |     | NULL    |       |
+| Department  | varchar(20) | YES  |     | NULL    |       |
+| Designation | varchar(25) | YES  |     | NULL    |       |
+| Address     | varchar(50) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+5 rows in set (0.022 sec)
+
+MariaDB [university]> create table Employee(EID varchar(20),EName varchar(40),Sector varchar(20),Tasks varchar(40),Address varchar(50));
+Query OK, 0 rows affected (0.029 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| course               |
+| employee             |
+| instructor           |
+| scholar              |
++----------------------+
+4 rows in set (0.001 sec)
+
+MariaDB [university]> describe employee;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| EID     | varchar(20) | YES  |     | NULL    |       |
+| EName   | varchar(40) | YES  |     | NULL    |       |
+| Sector  | varchar(20) | YES  |     | NULL    |       |
+| Tasks   | varchar(40) | YES  |     | NULL    |       |
+| Address | varchar(50) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+5 rows in set (0.017 sec)
+
+MariaDB [university]> describe Course;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| CCode  | varchar(15) | YES  |     | NULL    |       |
+| CTitle | varchar(30) | YES  |     | NULL    |       |
+| Credit | int(11)     | YES  |     | NULL    |       |
+| Level  | varchar(10) | YES  |     | NULL    |       |
+| Term   | varchar(10) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.018 sec)
+
+MariaDB [university]> describe Instructor;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| IID         | varchar(20) | YES  |     | NULL    |       |
+| IName       | varchar(35) | YES  |     | NULL    |       |
+| Department  | varchar(20) | YES  |     | NULL    |       |
+| Designation | varchar(25) | YES  |     | NULL    |       |
+| Address     | varchar(50) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+5 rows in set (0.013 sec)
+
+MariaDB [university]> describe Employee;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| EID     | varchar(20) | YES  |     | NULL    |       |
+| EName   | varchar(40) | YES  |     | NULL    |       |
+| Sector  | varchar(20) | YES  |     | NULL    |       |
+| Tasks   | varchar(40) | YES  |     | NULL    |       |
+| Address | varchar(50) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+5 rows in set (0.014 sec)
+
+MariaDB [university]> describe Scholar;
++------------+--------------+------+-----+---------+-------+
+| Field      | Type         | Null | Key | Default | Extra |
++------------+--------------+------+-----+---------+-------+
+| SID        | int(11)      | YES  |     | NULL    |       |
+| SName      | varchar(35)  | YES  |     | NULL    |       |
+| Department | varchar(30)  | YES  |     | NULL    |       |
+| Section    | varchar(20)  | YES  |     | NULL    |       |
+| Age        | int(11)      | YES  |     | NULL    |       |
+| CGPA       | decimal(2,2) | YES  |     | NULL    |       |
++------------+--------------+------+-----+---------+-------+
+6 rows in set (0.016 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| course               |
+| employee             |
+| instructor           |
+| scholar              |
++----------------------+
+4 rows in set (0.001 sec)
+MariaDB [university]> insert into Course values('CSE 311',Database Management System,2,'L 3','T 1');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Management System,2,'L 3','T 1')' at line 1
+MariaDB [university]> insert into Course values('CSE 311','Database Management System',2,'L 3','T 1');
+Query OK, 1 row affected (0.050 sec)
+
+MariaDB [university]> insert into Course values('CSE 312','Database Management System Lab',2,'L 3','T 1');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into Course values('CSE 313','Computer Networks',2,'L 3','T 1');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into Course values('CSE 314','Computer Networks Lab',2,'L 3','T 1');
+Query OK, 1 row affected (0.003 sec)
+
+MariaDB [university]> insert into Course values('CSE 317','Software Project 5',2,'L 3','T 1');
+Query OK, 1 row affected (0.003 sec)
+
+MariaDB [university]> select *from Course;
++---------+--------------------------------+--------+-------+------+
+| CCode   | CTitle                         | Credit | Level | Term |
++---------+--------------------------------+--------+-------+------+
+| CSE 311 | Database Management System     |      2 | L 3   | T 1  |
+| CSE 312 | Database Management System Lab |      2 | L 3   | T 1  |
+| CSE 313 | Computer Networks              |      2 | L 3   | T 1  |
+| CSE 314 | Computer Networks Lab          |      2 | L 3   | T 1  |
+| CSE 317 | Software Project 5             |      2 | L 3   | T 1  |
++---------+--------------------------------+--------+-------+------+
+5 rows in set (0.001 sec)
+
+MariaDB [university]> describe employee;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| EID     | varchar(20) | YES  |     | NULL    |       |
+| EName   | varchar(40) | YES  |     | NULL    |       |
+| Sector  | varchar(20) | YES  |     | NULL    |       |
+| Tasks   | varchar(40) | YES  |     | NULL    |       |
+| Address | varchar(50) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+5 rows in set (0.022 sec)
+
+MariaDB [university]> insert into Employee values('101','A','FSIT','Teaching','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into Employee values('101','A','FSIT','Teaching','Dhaka');
+Query OK, 1 row affected (0.003 sec)
+
+MariaDB [university]> insert into Employee values('102','B','FSIT','Teaching','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into Employee values('102','B','FSIT','Teaching','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into Employee values('103',C','FSIT','Teaching','Dhaka');
+    '> '
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '','FSIT','Teaching','Dhaka');
+'' at line 1
+MariaDB [university]> insert into Employee values('103','C','FSIT','Teaching','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> describe employee;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| EID     | varchar(20) | YES  |     | NULL    |       |
+| EName   | varchar(40) | YES  |     | NULL    |       |
+| Sector  | varchar(20) | YES  |     | NULL    |       |
+| Tasks   | varchar(40) | YES  |     | NULL    |       |
+| Address | varchar(50) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+5 rows in set (0.016 sec)
+
+MariaDB [university]> select *from employee;
++------+-------+--------+----------+---------+
+| EID  | EName | Sector | Tasks    | Address |
++------+-------+--------+----------+---------+
+| 101  | A     | FSIT   | Teaching | Dhaka   |
+| 101  | A     | FSIT   | Teaching | Dhaka   |
+| 102  | B     | FSIT   | Teaching | Dhaka   |
+| 102  | B     | FSIT   | Teaching | Dhaka   |
+| 103  | C     | FSIT   | Teaching | Dhaka   |
++------+-------+--------+----------+---------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> describe instructor;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| IID         | varchar(20) | YES  |     | NULL    |       |
+| IName       | varchar(35) | YES  |     | NULL    |       |
+| Department  | varchar(20) | YES  |     | NULL    |       |
+| Designation | varchar(25) | YES  |     | NULL    |       |
+| Address     | varchar(50) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+5 rows in set (0.018 sec)
+
+MariaDB [university]> insert into instructor valoues('222','MZB','CSE','Assistant Professor','Dhaka');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'valoues('222','MZB','CSE','Assistant Professor','Dhaka')' at line 1
+MariaDB [university]> insert into instructor values('222','MZB','CSE','Assistant Professor','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into instructor values('222','MZB','CSE','Assistant Professor','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into instructor values('333','AHN','CSE','Assistant Professor','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into instructor values('333','AHN','CSE','Assistant Professor','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> insert into instructor values('444','MHRA','CSE','Lecturer','Dhaka');
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [university]> select *from Instructor;
++------+-------+------------+---------------------+---------+
+| IID  | IName | Department | Designation         | Address |
++------+-------+------------+---------------------+---------+
+| 222  | MZB   | CSE        | Assistant Professor | Dhaka   |
+| 222  | MZB   | CSE        | Assistant Professor | Dhaka   |
+| 333  | AHN   | CSE        | Assistant Professor | Dhaka   |
+| 333  | AHN   | CSE        | Assistant Professor | Dhaka   |
+| 444  | MHRA  | CSE        | Lecturer            | Dhaka   |
++------+-------+------------+---------------------+---------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> describe Scholar;
++------------+--------------+------+-----+---------+-------+
+| Field      | Type         | Null | Key | Default | Extra |
++------------+--------------+------+-----+---------+-------+
+| SID        | int(11)      | YES  |     | NULL    |       |
+| SName      | varchar(35)  | YES  |     | NULL    |       |
+| Department | varchar(30)  | YES  |     | NULL    |       |
+| Section    | varchar(20)  | YES  |     | NULL    |       |
+| Age        | int(11)      | YES  |     | NULL    |       |
+| CGPA       | decimal(2,2) | YES  |     | NULL    |       |
++------------+--------------+------+-----+---------+-------+
+6 rows in set (0.012 sec)
+
+MariaDB [university]> insert into Scholar values(2011513756,'Md. Mahamud Mredha','CSE','G',21,'3.80');
+Query OK, 1 row affected, 1 warning (0.004 sec)
+
+MariaDB [university]> insert into Scholar values(2011513767,'Md. Shadman sakib siam','CSE','G',23,'3.90');
+Query OK, 1 row affected, 1 warning (0.003 sec)
+
+MariaDB [university]> insert into Scholar values(2011514051,'Najib Ud Doha Neloy','CSE','G',23,'3.96');
+Query OK, 1 row affected, 1 warning (0.003 sec)
+
+MariaDB [university]> insert into Scholar values(2011514183,'Nafisa Hauqe Saima','CSE','G',18,'3.92');
+Query OK, 1 row affected, 1 warning (0.003 sec)
+
+MariaDB [university]> insert into Scholar values(2011514185,'Nahid','CSE','G',22,'3.93');
+Query OK, 1 row affected, 1 warning (0.003 sec)
+
+MariaDB [university]> select *from Scholar;
++------------+------------------------+------------+---------+------+------+
+| SID        | SName                  | Department | Section | Age  | CGPA |
++------------+------------------------+------------+---------+------+------+
+| 2011513756 | Md. Mahamud Mredha     | CSE        | G       |   21 | 0.99 |
+| 2011513767 | Md. Shadman sakib siam | CSE        | G       |   23 | 0.99 |
+| 2011514051 | Najib Ud Doha Neloy    | CSE        | G       |   23 | 0.99 |
+| 2011514183 | Nafisa Hauqe Saima     | CSE        | G       |   18 | 0.99 |
+| 2011514185 | Nahid                  | CSE        | G       |   22 | 0.99 |
++------------+------------------------+------------+---------+------+------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> select *from instructor;
++------+-------+------------+---------------------+---------+
+| IID  | IName | Department | Designation         | Address |
++------+-------+------------+---------------------+---------+
+| 222  | MZB   | CSE        | Assistant Professor | Dhaka   |
+| 222  | MZB   | CSE        | Assistant Professor | Dhaka   |
+| 333  | AHN   | CSE        | Assistant Professor | Dhaka   |
+| 333  | AHN   | CSE        | Assistant Professor | Dhaka   |
+| 444  | MHRA  | CSE        | Lecturer            | Dhaka   |
++------+-------+------------+---------------------+---------+
+5 rows in set (0.001 sec)
+
+MariaDB [university]> select *from employee;
++------+-------+--------+----------+---------+
+| EID  | EName | Sector | Tasks    | Address |
++------+-------+--------+----------+---------+
+| 101  | A     | FSIT   | Teaching | Dhaka   |
+| 101  | A     | FSIT   | Teaching | Dhaka   |
+| 102  | B     | FSIT   | Teaching | Dhaka   |
+| 102  | B     | FSIT   | Teaching | Dhaka   |
+| 103  | C     | FSIT   | Teaching | Dhaka   |
++------+-------+--------+----------+---------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> select *from Course;
++---------+--------------------------------+--------+-------+------+
+| CCode   | CTitle                         | Credit | Level | Term |
++---------+--------------------------------+--------+-------+------+
+| CSE 311 | Database Management System     |      2 | L 3   | T 1  |
+| CSE 312 | Database Management System Lab |      2 | L 3   | T 1  |
+| CSE 313 | Computer Networks              |      2 | L 3   | T 1  |
+| CSE 314 | Computer Networks Lab          |      2 | L 3   | T 1  |
+| CSE 317 | Software Project 5             |      2 | L 3   | T 1  |
++---------+--------------------------------+--------+-------+------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> show tables;
++----------------------+
+| Tables_in_university |
++----------------------+
+| course               |
+| employee             |
+| instructor           |
+| scholar              |
++----------------------+
+4 rows in set (0.001 sec)
+
+MariaDB [university]> select *from Scholar where age > 20 and department='CSE';
++------------+------------------------+------------+---------+------+------+
+| SID        | SName                  | Department | Section | Age  | CGPA |
++------------+------------------------+------------+---------+------+------+
+| 2011513756 | Md. Mahamud Mredha     | CSE        | G       |   21 | 0.99 |
+| 2011513767 | Md. Shadman sakib siam | CSE        | G       |   23 | 0.99 |
+| 2011514051 | Najib Ud Doha Neloy    | CSE        | G       |   23 | 0.99 |
+| 2011514185 | Nahid                  | CSE        | G       |   22 | 0.99 |
++------------+------------------------+------------+---------+------+------+
+4 rows in set (0.002 sec)
+
+MariaDB [university]> select sid,sname from scholar where cgpa>=3.00;
+Empty set (0.001 sec)
+
+MariaDB [university]> select sid,sname from scholar where cgpa>=.01;
++------------+------------------------+
+| sid        | sname                  |
++------------+------------------------+
+| 2011513756 | Md. Mahamud Mredha     |
+| 2011513767 | Md. Shadman sakib siam |
+| 2011514051 | Najib Ud Doha Neloy    |
+| 2011514183 | Nafisa Hauqe Saima     |
+| 2011514185 | Nahid                  |
++------------+------------------------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> select iname from instructor where designation='lecturer' and department='CSE';
++-------+
+| iname |
++-------+
+| MHRA  |
++-------+
+1 row in set (0.001 sec)
+
+MariaDB [university]> select concat(sector,'-',tasks) as 'Responsibilities',eid,ename from employee;
++------------------+------+-------+
+| Responsibilities | eid  | ename |
++------------------+------+-------+
+| FSIT-Teaching    | 101  | A     |
+| FSIT-Teaching    | 101  | A     |
+| FSIT-Teaching    | 102  | B     |
+| FSIT-Teaching    | 102  | B     |
+| FSIT-Teaching    | 103  | C     |
++------------------+------+-------+
+5 rows in set (0.001 sec)
+
+MariaDB [university]> select *from course whwre credit=3 or level=2;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'credit=3 or level=2' at line 1
+MariaDB [university]> select *from course whwre credit=3 or level='2';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'credit=3 or level='2'' at line 1
+MariaDB [university]> select *from course where credit=3 or level='2';
+Empty set (0.001 sec)
+
+MariaDB [university]> select *from course where credit=3 or level='3';
+Empty set (0.000 sec)
+
+MariaDB [university]> select *from course where credit=2 or level='3';
++---------+--------------------------------+--------+-------+------+
+| CCode   | CTitle                         | Credit | Level | Term |
++---------+--------------------------------+--------+-------+------+
+| CSE 311 | Database Management System     |      2 | L 3   | T 1  |
+| CSE 312 | Database Management System Lab |      2 | L 3   | T 1  |
+| CSE 313 | Computer Networks              |      2 | L 3   | T 1  |
+| CSE 314 | Computer Networks Lab          |      2 | L 3   | T 1  |
+| CSE 317 | Software Project 5             |      2 | L 3   | T 1  |
++---------+--------------------------------+--------+-------+------+
+5 rows in set (0.000 sec)
+
+MariaDB [university]> REM
+    -> Thank You Ma'am
